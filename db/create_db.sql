@@ -1,0 +1,20 @@
+USE ic_kinetics;
+DROP TABLE IF EXISTS tutors_subjects_junction;
+DROP TABLE IF EXISTS transactions;
+DROP TABLE IF EXISTS blocks;
+DROP TABLE IF EXISTS students ;
+DROP TABLE IF EXISTS tutors;
+DROP TABLE IF EXISTS subjects;
+
+#SET NAMES 'utf8';
+#DEFAULT CHARSET=utf8;
+
+CREATE TABLE main_table(
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	t1 VARCHAR(64) NOT NULL,
+	t2 VARCHAR(64) NOT NULL,
+	t3 VARCHAR(64) 
+);
+
+INSERT INTO main_table (t1, t2)
+VALUES ('Mike', 'TheKing');

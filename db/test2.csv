@@ -1,0 +1,3 @@
+	selectivity	isoform	mutant	new_residue	act_v50	act_time	inact_v50	inact_time
+0	K+	Kv 1.2	WT		-50	10	10	100
+0	Na	Kv 1.3	WT		2	5	-10	10
